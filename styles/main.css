@@ -354,6 +354,7 @@ span.learns {
   border-radius: 8px;
   padding: 4px 10px;
   transition: transform 0.2s ease-in-out;
+  width: fit-content;
 }
 .readme:hover {
   background-color: #001b2e;
@@ -370,7 +371,7 @@ span.learns {
   font-optical-sizing: auto;
   font-weight: 600;
   background-color: #001b2e;
-
+  width: fit-content;
   font-style: normal;
   color: #b3cde4;
   transition: transform 0.2s ease-in-out;
@@ -662,6 +663,9 @@ span.learns {
   transition: opacity 0.3s ease, visibility 0.3s ease;
   z-index: 100;
 }
+.hover.hide {
+  display: none;
+}
 .hover-left {
   color: #b3cde4;
   opacity: 0;
@@ -805,6 +809,14 @@ span.learns {
   }
   .skill {
     max-width: 500px;
+  }
+  .projectbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .visit {
+    margin: 8px;
   }
 }
 @media screen and (max-width: 600px) {
