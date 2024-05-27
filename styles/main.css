@@ -663,9 +663,7 @@ span.learns {
   transition: opacity 0.3s ease, visibility 0.3s ease;
   z-index: 100;
 }
-.hover.hide {
-  display: none;
-}
+
 .hover-left {
   color: #b3cde4;
   opacity: 0;

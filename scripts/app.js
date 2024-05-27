@@ -120,12 +120,11 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
-  document.querySelectorAll(".projectclose").forEach(function (close) {
+  document.querySelectorAll("#projectclose").forEach(function (close) {
     close.addEventListener("click", function () {
       const projecthover = document.querySelector(".hover");
-      const close = document.getElementById("projectclose");
       if (projecthover.classList.contains("show")) {
-        projecthover.classList.toggle("hide");
+        projecthover.classList.remove("show");
       }
     });
   });
