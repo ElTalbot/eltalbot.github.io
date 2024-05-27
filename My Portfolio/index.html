@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Elizabeth Talbot | My Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="scripts/app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <!-- -----------------NAV------------------ -->
+    <nav class="nav">
+      <ul>
+        <li><a class="navlink" href="#home">Home</a></li>
+        <li><a class="navlink" href="#about">About Me</a></li>
+        <li><a class="navlink" href="#projects">Projects</a></li>
+        <li><a class="navlink" href="#experiences">Experiences</a></li>
+        <li><a class="navlink" href="#skills">Skills</a></li>
+        <li><a class="navlink" href="#interests">Interests</a></li>
+      </ul>
+    </nav>
+    <!-- ----------MOBILE NAV------- -->
+    <nav class="mobilenav">
+      <div class="mobilenavtoggle">
+        <i
+          id="menu"
+          class="toggle fa-solid fa-bars fa-2xl"
+          style="color: #b3cde4"
+        ></i>
+        <i
+          id="close"
+          class="toggle fa-solid fa-xmark fa-2xl"
+          style="color: #b3cde4"
+        ></i>
+      </div>
+      <ul class="mobilenavmenu">
+        <li><a class="mobnavitem" href="#home">Home</a></li>
+        <li><a class="mobnavitem" href="#about">About Me</a></li>
+        <li><a class="mobnavitem" href="#projects">Projects</a></li>
+        <li><a class="mobnavitem" href="#experiences">Experiences</a></li>
+        <li><a class="mobnavitem" href="#skills">Skills</a></li>
+        <li><a class="mobnavitem" href="#interests">Interests</a></li>
+      </ul>
+    </nav>
+    <div class="portfolio">
+      <!-- -----------------HERO------------------ -->
+      <div class="hero">
+        <div id="home" class="outer">
+          <div>
+            <h1>Hello I'm Elizabeth</h1>
+            <h2>
+              I'm a <span>Junior Developer</span> keen to collaborate with
+              passionate individuals to build innovative projects that make a
+              positive impact.
+            </h2>
+          </div>
+          <div class="contactbuttons">
+            <a class="herobuttons" href="mailto:talbot.elizabeth@yahoo.com"
+              ><i class="fa-solid fa-envelope"></i> Email</a
+            >
+            <a
+              class="herobuttons"
+              href="https://www.linkedin.com/in/elizabeth-l-talbot/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+            >
+            <a
+              class="herobuttons"
+              href="http://github.com/eltalbot"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i> GitHub</a
+            >
+          </div>
+          <!-- Mobile contact -->
+          <div class="contactbuttonsmob">
+            <a class="herobuttonsmob" href="mailto:talbot.elizabeth@yahoo.com"
+              ><i class="fa-solid fa-envelope fa-2xl"></i
+            ></a>
+            <a
+              class="herobuttonsmob"
+              href="https://www.linkedin.com/in/elizabeth-l-talbot/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin fa-2xl"></i
+            ></a>
+            <a
+              class="herobuttonsmob"
+              href="http://github.com/eltalbot"
+              target="_blank"
+              ><i class="fa-brands fa-github fa-2xl"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- -----------------ABOUT------------------ -->
+        <div id="about" class="outerabout">
+          <div class="about">
+            <h2 class="h2about">About</h2>
+            <div class="aboutdesc">
+              <p class="aboutdark">
+                A journey marked by adaptability and a hunger for new
+                challenges.
+              </p>
+              <p class="dark">
+                A background in the fitness industry and first hand experience
+                working within the dynamic environment of a startup ignited my
+                passion for technology. The realisation in the untapped
+                potential for fostering a sense of community within the fitness
+                realm, as well as the scope, continuing growth and possibilities
+                that the world of development offered inspired me to grab the
+                bull by the horns and jump into the world of tech.
+              </p>
+            </div>
+          </div>
+          <a class="aboutlink" href="about.html" target="_blank"
+            >The journey continues <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!--  -------------------PROJECTS----------------- -->
+    <div id="projects" class="projects">
+      <div class="outerprojects">
+        <div class="poverview">
+          <h2 class="h2projects">My Projects</h2>
+          <p class="light pintro">
+            Take a browse at some of my projects I have dabbled with right from
+            their
+            <span class="highlight">conception all the way to deployment</span>
+            - allowing me to put into practice JavaScript fundamentals along
+            with HTML and CSS to build a grid based intepretation of the Frogger
+            game. Use our very own API to build a
+            <span class="highlight">Full Stack MERN App</span> with full CRUD
+            functionality as well as developing a full-stack React.js app to
+            render data from a PostgreSQL database using Python and Flask.
+          </p>
+        </div>
+
+        <div class="projectscontainer fade">
+          <div class="projectcontainer">
+            <img
+              class="project"
+              src="../My Portfolio/assets/walkabout.png"
+              style="width: 100%"
+            />
+            <div class="projecttext">
+              <div class="name">
+                <a
+                  class="title"
+                  href="https://eltalbot.github.io/SEB-Project-1/"
+                  target="_blank"
+                  >Going WalkAbout</a
+                >
+                <p class="projectlength">Solo | 1 Week</p>
+              </div>
+              <div class="description">
+                <p class="light">
+                  An interpretation of the well-known Frogger game, built using
+                  JavaScript, HTML and CSS, Going Walkabout takes inspiration
+                  from my love of Australia - go on an adventure with Joey and
+                  help reunite him with his family.
+                </p>
+              </div>
+              <div>
+                <p class="learn">
+                  <span class="learns">Biggest Learn </span> <br />The value of
+                  seeking support. Self-reliance is vital but discussing
+                  challenges with peers or instructors can offer fresh
+                  perspectives.
+                </p>
+              </div>
+              <div class="name">
+                <div class="skills">
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/css.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/html.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/javascript.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <a
+                    class="visit"
+                    href="https://eltalbot.github.io/SEB-Project-1/"
+                    target="_blank"
+                    >Going WalkAbout<i class="fa-solid fa-arrow-right"></i
+                  ></a>
+
+                  <a
+                    class="readme"
+                    href="https://github.com/ElTalbot/SEB-Project-1"
+                    target="_blank"
+                    >README <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projectcontainer">
+            <img
+              class="project"
+              src="../My Portfolio/assets/disney.png"
+              style="width: 100%"
+            />
+            <div class="projecttext">
+              <div class="name">
+                <a
+                  class="title"
+                  href="https://seb-78project2.netlify.app/character/18"
+                  target="_blank"
+                  >Discover Disney</a
+                >
+                <p class="projectlength">Pair | 48hours</p>
+              </div>
+              <div class="description">
+                <p class="light">
+                  48-hour Hackathon, employing a driver-navigator dynamic, using
+                  an external public API, as well as, JavaScript, Express,
+                  Node.js and React we built an app displaying a list of disney
+                  characters that could be searched, filtered and interacted
+                  with.
+                </p>
+              </div>
+              <div>
+                <p class="learn">
+                  <span class="learns">Biggest Learn </span> <br />The need for
+                  a more thorough breakdown of user journey's to help mitigate
+                  the chance of bugs and uncaught UI/UX issues
+                </p>
+              </div>
+              <div class="name">
+                <div class="skills">
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/react.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/express.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/node.js.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/javascript.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <a
+                    class="visit"
+                    href="https://seb-78project2.netlify.app/character/18"
+                    target="_blank"
+                    >Discover Disney<i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                  <a
+                    class="readme"
+                    href="https://github.com/ElTalbot/SEB-Project-2"
+                    target="_blank"
+                    >README <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projectcontainer">
+            <img
+              class="project"
+              src="../My Portfolio/assets/animals.png"
+              style="width: 100%"
+            />
+            <div class="projecttext">
+              <div class="name">
+                <a
+                  class="title"
+                  href="https://animalsgonewild.netlify.app"
+                  target="_blank"
+                  >Animals Gone Wild</a
+                >
+                <p class="projectlength">Group | 1 Week</p>
+              </div>
+              <div class="description">
+                <p class="light">
+                  A Full Stack MERN App with full CRUD functionality using
+                  programming languages and frameworks including, React,
+                  Express, Node.js, Mongoose and MongoDB.
+                </p>
+              </div>
+              <div>
+                <p class="learn">
+                  <span class="learns">Biggest Learn </span> <br />Git this was
+                  a big learning curve for me, I now feel more confident with
+                  creating branches, merge conflict management and pulling,
+                  merging and pushing code from my local branch to the main
+                  repository
+                </p>
+              </div>
+              <div class="name">
+                <div class="skills">
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/react.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/express.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/node.js.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/mongodb.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/mongoose.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <a
+                    class="visit"
+                    href="https://animalsgonewild.netlify.app"
+                    target="_blank"
+                    >Animals Gone Wild<i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                  <a
+                    class="readme"
+                    href="https://github.com/ElTalbot/SEB-Project-3-Backtend"
+                    target="_blank"
+                    >README <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projectcontainer">
+            <img
+              class="project"
+              src="../My Portfolio/assets/owlcore.png"
+              style="width: 100%"
+            />
+            <div class="projecttext">
+              <div class="name">
+                <a
+                  class="title"
+                  href="https://animalsgonewild.netlify.app"
+                  target="_blank"
+                  >Owlcore</a
+                >
+                <p class="projectlength">Collaboration | 3 Weeks</p>
+              </div>
+              <div class="description">
+                <p class="light">
+                  A Full Stack React.js App that renders a catalogue of
+                  movements, fitness sessions and a community positivity board
+                  all stored in a PostgreSQL database accessed using Flask.
+                  Owlcore offers full CRUD functionality and allows users to
+                  explore movements, book and cancel on fitness sessions and
+                  view and add posts to the Community board
+                </p>
+              </div>
+              <div>
+                <p class="learn">
+                  <span class="learns">Biggest Learn </span> <br />1 to many and
+                  many to many relationships in SQLAlchemy
+                </p>
+              </div>
+              <div class="name">
+                <div class="skills">
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/react.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/python.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/sqlalchemy.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/flask.png"
+                    alt=""
+                  />
+                  <img
+                    class="smallskill"
+                    src="../My Portfolio/assets/mongoose.png"
+                    alt=""
+                  />
+                </div>
+                <div class="projectlinks">
+                  <a
+                    class="visit"
+                    href="https://animalsgonewild.netlify.app"
+                    target="_blank"
+                    >Owlcore<i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                  <a
+                    class="readme"
+                    href="https://github.com/ElTalbot/SEB-Project-3-Backtend"
+                    target="_blank"
+                    >README <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="dotgroup" style="text-align: center">
+            <span class="dots" onclick="currentProject(1)"></span>
+            <span class="dots" onclick="currentProject(2)"></span>
+            <span class="dots" onclick="currentProject(3)"></span>
+          </div>
+        </div>
+        <br />
+      </div>
+    </div>
+
+    <!-- ------------------EXPERIENCES---------------- -->
+    <div id="experiences" class="allexperiences">
+      <h2 class="h2skills">Experiences</h2>
+      <div class="animatecompany">
+        <div class="animation">
+          <i id="plane" class="icon fa-solid fa-paper-plane fa-2xl"></i>
+        </div>
+
+        <div class="experiences">
+          <div class="experience">
+            <div class="companytitle">
+              <p class="company">Founder, Owlcore</p>
+              <p class="projectlength">November 2022 - Present</p>
+            </div>
+            <div class="open">
+              <p class="light keypoint">
+                No-Code Development | Project Management | Trouble-Shooting |
+                User Experience Design
+              </p>
+              <i
+                class="toggleIcon icon fa-solid fa-angles-down fa-xl fa-beat"
+              ></i>
+              <i
+                class="toggleIconClose icon fa-solid fa-angles-up fa-xl fa-beat"
+              ></i>
+            </div>
+            <div class="keypoints">
+              <p class="light">
+                <span class="keypoint">No-Code Development,</span> created a
+                basic booking system, session up-loaders, forms, sign-up, and
+                login functionalities using bubble.io.
+              </p>
+              <p class="light">
+                <span class="keypoint">Project Management,</span> from
+                conception to execution, initial development (wireframes, user
+                stories), user experience design, and testing procedures.
+              </p>
+              <p class="light">
+                <span class="keypoint">Trouble-shooting,</span> respond and
+                resolve technical issues encountered during the development,
+                deployment and on-going functionality of the system.
+              </p>
+              <p class="light">
+                <span class="keypoint">User Experience Design,</span> interacted
+                directly with clients and implemented suggestions for
+                improvements as required.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="companytitle">
+              <p class="company">Product Developer Assistant, Hub</p>
+              <p class="projectlength">2018 - December 2023</p>
+            </div>
+            <div class="open">
+              <p class="light keypoint">
+                Dynamic Startup | No-Code Development Platforms | Promotion and
+                Growth | Experience
+              </p>
+              <i
+                class="toggleIcon icon fa-solid fa-angles-down fa-xl fa-beat"
+              ></i>
+              <i
+                class="toggleIconClose icon fa-solid fa-angles-up fa-xl fa-beat"
+              ></i>
+            </div>
+            <div class="keypoints">
+              <p class="light">
+                <span class="keypoint">Dynamic Startup,</span> providing support
+                to the manager and founder as well as assisting in project
+                coordination, organising workflows, prioritising tasks, meeting
+                deadlines all to drive project success and maintain client
+                satisfaction.
+              </p>
+              <p class="light">
+                <span class="keypoint">No-Code Development Platforms,</span>
+                particularly Bubble for application development
+              </p>
+              <p class="light">
+                <span class="keypoint">Promotion and Growth,</span> using
+                marketing strategies including, content, email and social media
+                marketing as well as Search Engine Optimisation (SEO).
+              </p>
+              <p class="light">
+                <span class="keypoint">Experience,</span>
+                with Webflow, Squarespace, Mailerlite and Hubspot for website
+                design, email marketing and customer relationship engagement
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="companytitle">
+              <div class="coach">
+                <p class="company">Sports Coach, Little Kickers</p>
+                <p class="parttime">Part Time</p>
+              </div>
+              <p class="projectlength">December 2023 - Present</p>
+            </div>
+            <div class="open">
+              <p class="light keypoint">Interpersonal Skills | Adaptability</p>
+              <i
+                class="toggleIcon icon fa-solid fa-angles-down fa-xl fa-beat"
+              ></i>
+              <i
+                class="toggleIconClose icon fa-solid fa-angles-up fa-xl fa-beat"
+              ></i>
+            </div>
+            <div class="keypoints">
+              <p class="light">
+                <span class="keypoint">Interpersonal Skills,</span> essential
+                for collaborative teamwork, responding to leadership, effective
+                communication and the ability to adapt within changing
+                environments
+              </p>
+              <p class="light">
+                <span class="keypoint">Adaptability,</span>
+                offer opportunity to change session as needed to meet
+                requirements of the children
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="companytitle">
+              <p class="company">Support Worker, Little Grove</p>
+              <p class="projectlength">2016 - January 2020</p>
+            </div>
+            <div class="open">
+              <p class="light keypoint">
+                Collaboration | Makaton (speech-assisted sign language) | Bank
+                Work
+              </p>
+              <i
+                class="toggleIcon icon fa-solid fa-angles-down fa-xl fa-beat"
+              ></i>
+              <i
+                class="toggleIconClose icon fa-solid fa-angles-up fa-xl fa-beat"
+              ></i>
+            </div>
+            <div class="keypoints">
+              <p class="light">
+                <span class="keypoint">Collaboration,</span>
+                as part of a dedicated team to support young individuals with
+                learning difficulties.
+              </p>
+              <p class="light">
+                <span class="keypoint"
+                  >Makaton (speech-assisted sign language),</span
+                >
+                experience to facilitate the communication with the young
+                people, and further pursued sign language thereafter.
+              </p>
+              <p class="light">
+                <span class="keypoint">Bank work,</span>
+                continue to work weekends as needed
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------KEY SKILLS-------------- -->
+    <div id="skills" class="keyskills">
+      <h2 class="h2skills">Key Skills</h2>
+      <div class="skillrow">
+        <img
+          class="skill"
+          src="../My Portfolio/assets/skillsrowone.png"
+          alt=""
+        />
+        <img
+          class="skill"
+          src="../My Portfolio/assets/skillsrowtwo.png"
+          alt=""
+        />
+        <img
+          class="skill"
+          src="../My Portfolio/assets/skillsrowthree.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- ------------------INTERESTS---------------- -->
+    <div id="interests" class="interests">
+      <div class="globe">
+        <img class="rotate" src="./assets/Globe.png" alt="" />
+      </div>
+      <div class="intitle">
+        <h2 class="h2skills">Interests</h2>
+        <p class="light">
+          Yes, I'm loving my venture into Software and having the opportunity to
+          discover, learn and cultivate my knowledge and understanding in an
+          evergrowing industry.. <span class="highlight">BUT,</span> that
+          discovery and exploration is not exclusive to the software industry.
+          As a self-confessed <span class="highlight">adrenalin seeker</span>,
+          <span class="highlight">keen traveller</span> and
+          <span class="highlight">family focussed</span> individual I am always
+          eager to reach new heights and see the world!
+        </p>
+      </div>
+      <div class="interest">
+        <div class="intright">
+          <!-- FAMILY INFO -->
+          <div class="intrighttop">
+            <div class="inthover">
+              <p class="company">Family</p>
+              <i class="icon fa-solid fa-eye fa-xl"></i>
+              <div class="hover hover-left">
+                <p class="light">
+                  Time spent with family is invaluable. Be it climbing,
+                  swimming, travelling or a simple coffee date are memory-making
+                  moments I treasure.
+                </p>
+                <p class="funfacts">Quick Fire</p>
+                <p class="question">
+                  Oldest or
+                  <span class="answer">Youngest?</span>
+                </p>
+                <p class="question">
+                  <span class="answer">Urban</span> or Rural?
+                </p>
+                <p class="question">
+                  Large Family or
+                  <span class="answer">Small Family?</span>
+                </p>
+                <p class="question">
+                  <span class="answer">Nearby</span> or Far Away?
+                </p>
+                <p class="question">
+                  Drink Together or
+                  <span class="answer">Eat Together?</span>
+                </p>
+                <p class="question">
+                  <span class="answer">Travel Together</span> or Prefer to Stay
+                  At Home?
+                </p>
+              </div>
+            </div>
+            <p class="projectlength">Memories | Food | Adventures</p>
+            <p class="light">
+              Family is at my core. Meals together with my family, climbing
+              trees with my niece and time spent laughing and chatting.
+            </p>
+          </div>
+          <!-- TRAVELLING INFO -->
+          <div class="intrighttop">
+            <div class="inthover">
+              <p class="company">Travelling</p>
+              <i class="icon fa-solid fa-eye fa-xl"></i>
+              <div class="hover hover-left">
+                <p class="light">
+                  Years abroad as children, adventures in the woods and on the
+                  water as teenagers and discovering my inner child with my
+                  nieces are all memories that drive my zest for new adventures.
+                </p>
+                <p class="funfacts">Quick Fire</p>
+                <p class="question">
+                  <span class="answer">Safari</span> or
+                  <span class="answer">Scuba?</span>
+                </p>
+                <p class="question">
+                  Outer Space or
+                  <span class="answer">Ocean Floor?</span>
+                </p>
+                <p class="question"><span class="answer">Hot</span> or Cold?</p>
+                <p class="question">
+                  Campervan or
+                  <span class="answer">Yacht?</span>
+                </p>
+                <p class="question">
+                  Relax or
+                  <span class="answer">Explore?</span>
+                </p>
+                <p class="question">
+                  Infinite Luggage or
+                  <span class="answer">Free Transport?</span>
+                </p>
+              </div>
+            </div>
+            <p class="projectlength">Discover | Culture | Explore</p>
+            <p class="light">
+              Discovering the world, experiencing new cultures, meeting,
+              spending time with new people and exploring new places.
+            </p>
+          </div>
+        </div>
+        <div class="intleft">
+          <!-- THE OUTDOORS INFO -->
+          <div class="intlefttop">
+            <div class="inthover">
+              <p class="company">The Outdoors</p>
+              <i class="icon fa-solid fa-eye fa-xl"></i>
+              <div class="hover">
+                <p class="light">
+                  For me time spent outside whether it be up in the mountains
+                  finding the next rock face to climb, a mountain side to ski
+                  down or simply an open space to wander through or be it out on
+                  the water, in the water or by the water is a time well spent.
+                </p>
+                <p class="funfacts">Quick Fire</p>
+                <p class="question">
+                  Mountains or
+                  <span class="answer">Ocean?</span>
+                </p>
+                <p class="question">
+                  Grass or
+                  <span class="answer">Sand?</span>
+                </p>
+                <p class="question">
+                  <span class="answer">Go Paddling</span>
+                  or Go Climbling
+                </p>
+                <p class="question">
+                  Go Surfing or
+                  <span class="answer">Go Skiing?</span>
+                </p>
+                <p class="question">
+                  <span class="answer">Go Abseiling</span>
+                  or Go Caving
+                </p>
+                <p class="question">
+                  Go Sky Diving or
+                  <span class="answer">Go Paragliding?</span>
+                </p>
+              </div>
+            </div>
+            <p class="projectlength">Beaches | Mountains | Nature</p>
+            <p class="light">
+              With a degree in Outdoor Studies and a childhood spent at my local
+              sailing club, a love for the outdoors was inevitable.
+            </p>
+          </div>
+          <!-- PHYSICAL WELLBEING INFO -->
+          <div class="intlefttop">
+            <div class="inthover">
+              <p class="company">Physical Well-being</p>
+              <i class="icon fa-solid fa-eye fa-xl"></i>
+              <div class="hover">
+                <p class="light">
+                  The chance to foster a compassionate approach to create a
+                  tranquil and supportive atmosphere for patients and colleagues
+                  at my local hospice is extremeoly important to me.
+                  <br /><br />A sense of community is not only nurtured here but
+                  having the opportunity to run fitness sessions at my local
+                  church for my local community forms another passion of mine
+                  that I value greatly.
+                </p>
+                <p class="funfacts">Quick Fire</p>
+                <p class="question">
+                  Read a Book or
+                  <span class="answer">Go For a Run?</span>
+                </p>
+                <p class="question">
+                  <span class="answer">Listen to Music</span> or Quiet Time?
+                </p>
+                <p class="question">
+                  Get Creative or
+                  <span class="answer">Get Practical?</span>
+                </p>
+                <p class="question">
+                  5 Minutes of Meditation or
+                  <span class="answer">Go For a Walk?</span>
+                </p>
+                <p class="question">
+                  Drama or
+                  <span class="answer">Comedy?</span>
+                </p>
+                <p class="question">
+                  Cold Drink or
+                  <span class="answer">Hot Drink?</span>
+                </p>
+              </div>
+            </div>
+            <p class="projectlength">Outdoors | Fitness | Family Time</p>
+            <p class="light">
+              Physical well-being and mental health is a real passion of mine.
+              This passion is channelled by helping at my local hospice.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------FOOTER------------------- -->
+    <div class="footer">
+      <h3 class="light">Thank you for making it all the way to the bottom.</h3>
+      <p class="light">
+        Use the links below to get in touch, it would be great to connect.
+      </p>
+      <div class="contactbuttons">
+        <a class="herobuttons" href="mailto:talbot.elizabeth@yahoo.com"
+          ><i class="fa-solid fa-envelope"></i> Email</a
+        >
+        <a
+          class="herobuttons"
+          href="https://www.linkedin.com/in/elizabeth-l-talbot/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+        >
+        <a class="herobuttons" href="http://github.com/eltalbot" target="_blank"
+          ><i class="fa-brands fa-github"></i> GitHub</a
+        >
+      </div>
+      <!-- Mobile contact -->
+      <div class="contactbuttonsmob">
+        <a class="herobuttonsmob" href="mailto:talbot.elizabeth@yahoo.com"
+          ><i class="fa-solid fa-envelope fa-2xl"></i
+        ></a>
+        <a
+          class="herobuttonsmob"
+          href="https://www.linkedin.com/in/elizabeth-l-talbot/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin fa-2xl"></i
+        ></a>
+        <a
+          class="herobuttonsmob"
+          href="http://github.com/eltalbot"
+          target="_blank"
+          ><i class="fa-brands fa-github fa-2xl"></i
+        ></a>
+      </div>
+    </div>
+  </body>
+</html>
