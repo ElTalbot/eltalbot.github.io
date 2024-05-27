@@ -98,7 +98,7 @@ p.light {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #001b2e;
-  padding: 100px 100px;
+  padding: 0px 100px;
   padding-top: 60px;
 }
 .contactbuttons {
@@ -199,32 +199,7 @@ a {
   margin: 0 80px;
   height: fit-content;
 }
-.aboutquestions {
-  position: relative;
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 27, 46, 0.8),
-      rgba(0, 27, 46, 0.8)
-    ),
-    url(../assets/beach.png);
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-color: #001b2e;
-  display: flex;
-  flex-direction: column;
-}
-.interest {
-  margin-top: 100px;
-  width: fit-content;
-  align-self: flex-end;
-  background-color: rgba(0, 27, 46, 0.6);
-  padding: 40px 30px;
-}
-.excites {
-  margin-left: 100px;
-  max-width: 800px;
-}
+
 .aboutlink {
   font-size: 16px;
   font-family: "Rajdhani", sans-serif;
@@ -240,6 +215,50 @@ a {
 }
 .fa-arrow-right {
   margin-left: 10px;
+}
+
+.aboutpage {
+  padding: 100px 100px;
+  background-color: #001b2e;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 27, 46, 0.8),
+      rgba(0, 27, 46, 1)
+    ),
+    url(../assets/about.jpeg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h2aboutpage {
+  font-size: 70px;
+  padding: 10px 0;
+  border-top: 10px solid #b3cde4;
+  border-bottom: 10px solid #b3cde4;
+  margin: 0;
+  height: fit-content;
+  color: #b3cde4;
+  width: fit-content;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  gap: 4rem;
+}
+.aboutanswer {
+  max-width: 500px;
+}
+.paboutpage {
+  text-transform: uppercase;
+  max-width: 500px;
 }
 /* PROJECTS */
 .outerprojects {
@@ -828,6 +847,10 @@ span.learns {
   .visit {
     margin: 8px;
   }
+  .question {
+    flex-direction: column;
+    gap: 0;
+  }
 }
 @media screen and (max-width: 600px) {
   .hero {
@@ -877,6 +900,9 @@ span.learns {
   .animation {
     display: none;
   }
+  .aboutpage {
+    padding: 100px 40px;
+  }
 }
 @media screen and (max-width: 500px) {
   .contactbuttonsmob {
@@ -891,7 +917,11 @@ span.learns {
     padding: 40px;
   }
   .h2about,
-  .h2projects,
+  .h2projects {
+    font-size: 50px;
+    align-self: flex-start;
+  }
+
   .h2skills {
     font-size: 50px;
   }
