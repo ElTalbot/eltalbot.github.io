@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   document.querySelectorAll("#projectclose").forEach(function (close) {
     close.addEventListener("click", function () {
-      const projecthover = document.querySelector(".hover");
+      const projecthover = this.closest(".inthover").querySelector(".hover");
       if (projecthover.classList.contains("show")) {
         projecthover.classList.remove("show");
       }
