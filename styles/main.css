@@ -690,6 +690,15 @@ span.learns {
   opacity: 1;
   visibility: visible;
 }
+.projectclose {
+  display: flex;
+  justify-content: flex-end;
+}
+#projectclose {
+  width: fit-content;
+  align-self: flex-end;
+  padding: 10px 0;
+}
 .answer {
   color: #eef3f9;
   font-size: 20px;
@@ -742,6 +751,9 @@ span.learns {
   }
   .intleft {
     justify-content: space-around;
+  }
+  .hover-left {
+    right: 150px;
   }
 }
 @media screen and (max-width: 1200px) {
