@@ -247,18 +247,28 @@ a {
   color: #b3cde4;
   width: fit-content;
 }
-.question {
+.questionaboutpage {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
   gap: 4rem;
 }
 .aboutanswer {
-  max-width: 500px;
+  max-width: 600px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #b3cde4;
+  font-size: 18px;
 }
 .paboutpage {
   text-transform: uppercase;
   max-width: 500px;
+  font-size: 24px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #b3cde4;
 }
 /* PROJECTS */
 .outerprojects {
@@ -723,6 +733,8 @@ span.learns {
   color: #eef3f9;
   font-size: 20px;
   text-transform: uppercase;
+  padding: 0;
+  margin: 0;
 }
 .funfacts {
   font-size: 30px;
@@ -740,7 +752,6 @@ span.learns {
   font-weight: 400;
   font-style: normal;
   color: #b3cde4;
-  margin: 0;
 }
 
 /*-----------------FOOTER--------------*/
@@ -903,6 +914,9 @@ span.learns {
   }
   .aboutpage {
     padding: 100px 40px;
+  }
+  .rotate {
+    animation: none;
   }
 }
 @media screen and (max-width: 500px) {

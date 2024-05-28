@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Start auto timer scrolling
-  let projectInterval = setInterval(autoProjects, 6000);
+  let projectInterval = setInterval(autoProjects, 10000);
 
   // Function to display projects
   function showProjects(n) {
