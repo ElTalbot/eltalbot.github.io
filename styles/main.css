@@ -433,11 +433,45 @@ span.learns {
   margin-bottom: 20px;
 }
 
-.enable,
+.dots.active,
 .dots:hover {
   background: linear-gradient(92.18deg, #537692 -25.78%, #537692 123.02%);
   opacity: 1;
 }
+
+/* formatting the arrows */
+/* Arrow buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 10px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 10px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 /* animating the fade */
 .fade {
   -webkit-animation-name: fade;
@@ -899,17 +933,30 @@ span.learns {
   .contactbuttons {
     display: none;
   }
-  .outerprojects {
+  .projects {
     padding: 40px;
   }
-  .h2about,
-  .h2projects {
-    font-size: 50px;
-    align-self: flex-start;
+  /* Arrow buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
   }
 
-  .h2skills {
+  .h2titlelight {
     font-size: 50px;
+    align-self: flex-start;
+    margin-bottom: 10px;
   }
   .skill {
     max-width: 300px;

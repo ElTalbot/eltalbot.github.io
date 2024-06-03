@@ -1,21 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
   let projectPosition = 0;
   const projects = document.getElementsByClassName("projectcontainer"); // Define projects here
+  const dots = document.getElementsByClassName("dots");
 
   // Call showProjects() to display the initial project
   showProjects(projectPosition);
 
   // Next/previous controls
-  function plusProjects(n) {
-    projectPosition += n;
-    showProjects(projectPosition);
-  }
+  window.plusProjects = function (n) {
+    showProjects((projectPosition += n));
+  };
 
   // Thumbnail image controls
-  function currentProject(n) {
-    projectPosition = n;
-    showProjects(projectPosition);
-  }
+  window.currentProject = function (n) {
+    showProjects((projectPosition = n));
+  };
 
   // automatically scroll projects
   function autoProjects() {
@@ -27,12 +26,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Start auto timer scrolling
-  let projectInterval = setInterval(autoProjects, 10000);
+  let projectInterval = setInterval(autoProjects, 30000);
 
   // Function to display projects
   function showProjects(n) {
-    const dots = document.getElementsByClassName("dots");
-
     // Check bounds for projectPosition
     if (n >= projects.length) {
       projectPosition = 0;
