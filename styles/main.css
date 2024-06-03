@@ -908,7 +908,8 @@ span.learns {
   #close.active {
     display: block;
   }
-  .allexperiences {
+  .allexperiences,
+  .keyskills {
     padding: 40px;
   }
   .company {
