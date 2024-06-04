@@ -526,10 +526,16 @@ span.learns {
 .experiences {
   display: flex;
   flex-direction: column;
+  margin: 0 40px;
+}
+.experiencesright {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .experience {
   width: 100%;
-  max-width: 540px;
+  max-width: 620px;
   padding-bottom: 60px;
 }
 .coach {
@@ -590,15 +596,12 @@ span.learns {
 }
 .animatecompany {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 .animation {
   position: relative;
-  width: 200px;
-  height: 500px;
   overflow: visible;
-  margin-top: 20px;
-  margin-right: 50px;
+  margin-top: 40px;
 }
 #plane {
   font-size: 50px;
@@ -853,6 +856,9 @@ span.learns {
   .intro {
     text-align: left;
   }
+  .experiences {
+    margin: 0;
+  }
   .skill {
     max-width: 500px;
   }
@@ -957,10 +963,13 @@ span.learns {
   .h2titlelight {
     font-size: 50px;
     align-self: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .skill {
     max-width: 300px;
+  }
+  .skillrow {
+    justify-content: flex-start;
   }
   .hero {
     padding: 40px 40px;
